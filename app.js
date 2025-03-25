@@ -1,15 +1,28 @@
 const app = Vue.createApp({
   data() {
     return {
+      url: "https://www.yle.fi",
       showBooks: true,
-      title: "Final Empire",
-      author: "Brandon Sanderson",
-      age: 45,
-      x: 0,
-      y: 0,
+      books: [
+        {
+          title: "Assassin's quest",
+          author: "Robin Hobb",
+        },
+        {
+          title: "Fool's errand",
+          author: "Robin Hobb",
+        },
+        {
+          title: "Assassin's fate",
+          author: "Robin Hobb",
+        },
+      ],
     };
   },
   methods: {
+    toggleShowBooks() {
+      this.showBooks = !this.showBooks;
+    },
     changeTitle(title) {
       this.title = title;
     },
