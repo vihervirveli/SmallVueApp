@@ -6,22 +6,22 @@ const app = Vue.createApp({
       books: [
         {
           id: 1,
-          title: "Assassin's quest",
-          author: "Robin Hobb",
+          title: "The great escape",
+          author: "Joanna Nell",
           img: "assets/book1.png",
           isFav: true,
         },
         {
           id: 2,
-          title: "Fool's errand",
-          author: "Robin Hobb",
+          title: "The Great Gatsby",
+          author: "F. Scott Fitzgerald",
           img: "assets/book2.png",
           isFav: false,
         },
         {
           id: 3,
-          title: "Assassin's fate",
-          author: "Robin Hobb",
+          title: "The Great Moby",
+          author: "Herman Melville",
           img: "assets/book3.png",
           isFav: true,
         },
